@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6503A1C91ECDC60900B1C50B /* LibraryViewController+SubMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503A1C81ECDC60900B1C50B /* LibraryViewController+SubMenu.swift */; };
+		6503A1CB1ECDC65000B1C50B /* ExtractionAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503A1CA1ECDC65000B1C50B /* ExtractionAudioViewController.swift */; };
+		650E81E81EA50BE8006A4029 /* Date-Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E81E71EA50BE8006A4029 /* Date-Ex.swift */; };
+		651972471E9E310A0057BA56 /* BookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651972461E9E310A0057BA56 /* BookmarkViewController.swift */; };
+		652593681E958CF1002ED0FD /* FileOutputItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652593671E958CF1002ED0FD /* FileOutputItem.swift */; };
+		6525936A1E959463002ED0FD /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652593691E959463002ED0FD /* LibraryCell.swift */; };
+		6528A7981EA790C4006E7CE2 /* AppConfigDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528A7971EA790C4006E7CE2 /* AppConfigDataHelper.swift */; };
+		6528A7AF1EA7A36D006E7CE2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6528A7B11EA7A36D006E7CE2 /* Localizable.strings */; };
+		65353BDD1E96339D0023E5A1 /* MZUtility-Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65353BDC1E96339D0023E5A1 /* MZUtility-Ex.swift */; };
+		655521E71EA613AA00E90570 /* BookmarkDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655521E61EA613AA00E90570 /* BookmarkDataHelper.swift */; };
+		656056B01EC9D89400EC42A5 /* DataTablesOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656056AF1EC9D89400EC42A5 /* DataTablesOutput.swift */; };
+		656E11A41E9BB661006355F0 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E11A31E9BB661006355F0 /* Tab.swift */; };
+		656F167E1EB130CB00203B71 /* HistoryExpandableTableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656F167D1EB130CB00203B71 /* HistoryExpandableTableViewSectionHeader.swift */; };
+		657220B31E9276CF008A310B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657220B21E9276CF008A310B /* AppDelegate.swift */; };
+		657220B51E9276CF008A310B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657220B41E9276CF008A310B /* ViewController.swift */; };
+		657220B81E9276CF008A310B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657220B61E9276CF008A310B /* Main.storyboard */; };
+		657220BD1E9276CF008A310B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 657220BC1E9276CF008A310B /* Assets.xcassets */; };
+		657220C01E9276CF008A310B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 657220BE1E9276CF008A310B /* LaunchScreen.storyboard */; };
+		6572E0231E9E72610061A3D8 /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6572E0221E9E72610061A3D8 /* BookmarkCell.swift */; };
+		657698711EA8B0D400641333 /* AVAsset-Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657698701EA8B0D400641333 /* AVAsset-Ex.swift */; };
+		658D6DBE1EF9147100CA85D9 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658D6DBC1EF9147100CA85D9 /* ContactViewController.swift */; };
+		658D6DBF1EF9147100CA85D9 /* ThirdPartySoftware.html in Resources */ = {isa = PBXBuildFile; fileRef = 658D6DBD1EF9147100CA85D9 /* ThirdPartySoftware.html */; };
+		658F0F611EC9CD1300F2F42F /* String-Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658F0F601EC9CD1300F2F42F /* String-Ex.swift */; };
+		659458FE1EB0EC2200589BF0 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659458FD1EB0EC2200589BF0 /* HistoryCell.swift */; };
+		6595D9D71E9537B60095054B /* Website in Resources */ = {isa = PBXBuildFile; fileRef = 6595D9D61E9537B60095054B /* Website */; };
+		6595D9D91E95380C0095054B /* WebUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6595D9D81E95380C0095054B /* WebUploader.swift */; };
+		6595D9DD1E953E3D0095054B /* VideoModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6595D9DC1E953E3D0095054B /* VideoModelManager.swift */; };
+		6595D9DF1E953F2C0095054B /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6595D9DE1E953F2C0095054B /* VideoModel.swift */; };
+		6595D9E11E9542280095054B /* DownloadingViewController+MZDownloadManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6595D9E01E9542280095054B /* DownloadingViewController+MZDownloadManagerDelegate.swift */; };
+		6595D9E31E9544800095054B /* DownloadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6595D9E21E9544800095054B /* DownloadingCell.swift */; };
+		659F1DB81E9289D000ADD2F2 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1DB71E9289D000ADD2F2 /* LibraryViewController.swift */; };
+		659F1DBD1E928C3600ADD2F2 /* DownloadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1DBC1E928C3600ADD2F2 /* DownloadingViewController.swift */; };
+		659F1DBF1E928C9B00ADD2F2 /* UploadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1DBE1E928C9B00ADD2F2 /* UploadingViewController.swift */; };
+		659F1DC11E928CBC00ADD2F2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1DC01E928CBC00ADD2F2 /* SettingsViewController.swift */; };
+		659F1DC61E9294A300ADD2F2 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659F1DC51E9294A300ADD2F2 /* BrowserViewController.swift */; };
+		65D403971EF8047C00D28789 /* URLInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D403961EF8047C00D28789 /* URLInterceptor.swift */; };
+		65E582AA1EA40739005D93F0 /* SQLiteDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E582A91EA40739005D93F0 /* SQLiteDataStore.swift */; };
+		65E582AC1EA4088F005D93F0 /* HistoryDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E582AB1EA4088F005D93F0 /* HistoryDataHelper.swift */; };
+		65E582AE1EA408C0005D93F0 /* DataHelperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E582AD1EA408C0005D93F0 /* DataHelperProtocol.swift */; };
+		65EE38B41EB0A37100EBA283 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EE38B31EB0A37100EBA283 /* HistoryViewController.swift */; };
+		65F2D9081EF6984A002523B9 /* BrowserViewController+VideoDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F2D9071EF6984A002523B9 /* BrowserViewController+VideoDownload.swift */; };
+		65F939291E9F5DD9006B9E06 /* BookmarkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F939281E9F5DD9006B9E06 /* BookmarkDetailViewController.swift */; };
+		65FF6EB71E9BDB9B00AFAC6B /* UIImage-Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF6EB61E9BDB9B00AFAC6B /* UIImage-Ex.swift */; };
+		E83D13DB3C39366BC9F4DDAA /* Pods_Brauvi2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF62D3D80EA6ED2720783B3 /* Pods_Brauvi2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61370F9B9F51D5DC55160B65 /* Pods-Brauvi2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brauvi2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brauvi2/Pods-Brauvi2.debug.xcconfig"; sourceTree = "<group>"; };
+		6503A1C81ECDC60900B1C50B /* LibraryViewController+SubMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LibraryViewController+SubMenu.swift"; path = "Library/LibraryViewController+SubMenu.swift"; sourceTree = "<group>"; };
+		6503A1CA1ECDC65000B1C50B /* ExtractionAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExtractionAudioViewController.swift; path = Library/ExtractionAudioViewController.swift; sourceTree = "<group>"; };
+		6506B9EE1EF1D1E600DECE14 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		650E81E71EA50BE8006A4029 /* Date-Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Date-Ex.swift"; path = "Common/Date-Ex.swift"; sourceTree = "<group>"; };
+		651972461E9E310A0057BA56 /* BookmarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookmarkViewController.swift; path = Browser/BookmarkViewController.swift; sourceTree = "<group>"; };
+		6519A9441EF93F5000A0BA31 /* Brauvi2-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Brauvi2-Bridging-Header.h"; sourceTree = "<group>"; };
+		652593671E958CF1002ED0FD /* FileOutputItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileOutputItem.swift; path = Common/FileOutputItem.swift; sourceTree = "<group>"; };
+		652593691E959463002ED0FD /* LibraryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryCell.swift; path = Library/LibraryCell.swift; sourceTree = "<group>"; };
+		6528A7971EA790C4006E7CE2 /* AppConfigDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConfigDataHelper.swift; path = Database/AppConfigDataHelper.swift; sourceTree = "<group>"; };
+		6528A7B31EA7A3BC006E7CE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6528A7B81EA7A53E006E7CE2 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6529D4EA1EA3A87A00EFCCAF /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		65353BDC1E96339D0023E5A1 /* MZUtility-Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MZUtility-Ex.swift"; path = "Common/MZUtility-Ex.swift"; sourceTree = "<group>"; };
+		655521E61EA613AA00E90570 /* BookmarkDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookmarkDataHelper.swift; path = Database/BookmarkDataHelper.swift; sourceTree = "<group>"; };
+		656056AF1EC9D89400EC42A5 /* DataTablesOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataTablesOutput.swift; path = Uploading/DataTablesOutput.swift; sourceTree = "<group>"; };
+		656E11A31E9BB661006355F0 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab.swift; path = Browser/Tab.swift; sourceTree = "<group>"; };
+		656F167D1EB130CB00203B71 /* HistoryExpandableTableViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryExpandableTableViewSectionHeader.swift; path = Browser/HistoryExpandableTableViewSectionHeader.swift; sourceTree = "<group>"; };
+		657220AF1E9276CF008A310B /* Brauvi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brauvi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		657220B21E9276CF008A310B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		657220B41E9276CF008A310B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		657220B71E9276CF008A310B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		657220BC1E9276CF008A310B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		657220BF1E9276CF008A310B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		657220C11E9276CF008A310B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6572E0221E9E72610061A3D8 /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookmarkCell.swift; path = Browser/BookmarkCell.swift; sourceTree = "<group>"; };
+		657698701EA8B0D400641333 /* AVAsset-Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "AVAsset-Ex.swift"; path = "Common/AVAsset-Ex.swift"; sourceTree = "<group>"; };
+		658D6DBC1EF9147100CA85D9 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactViewController.swift; path = Settings/ContactViewController.swift; sourceTree = "<group>"; };
+		658D6DBD1EF9147100CA85D9 /* ThirdPartySoftware.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = ThirdPartySoftware.html; path = Settings/ThirdPartySoftware.html; sourceTree = "<group>"; };
+		658F0F601EC9CD1300F2F42F /* String-Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Ex.swift"; path = "Common/String-Ex.swift"; sourceTree = "<group>"; };
+		659458FD1EB0EC2200589BF0 /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryCell.swift; path = Browser/HistoryCell.swift; sourceTree = "<group>"; };
+		6595D9D61E9537B60095054B /* Website */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Website; sourceTree = "<group>"; };
+		6595D9D81E95380C0095054B /* WebUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebUploader.swift; path = Uploading/WebUploader.swift; sourceTree = "<group>"; };
+		6595D9DC1E953E3D0095054B /* VideoModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoModelManager.swift; path = Common/VideoModelManager.swift; sourceTree = "<group>"; };
+		6595D9DE1E953F2C0095054B /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoModel.swift; path = Common/VideoModel.swift; sourceTree = "<group>"; };
+		6595D9E01E9542280095054B /* DownloadingViewController+MZDownloadManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DownloadingViewController+MZDownloadManagerDelegate.swift"; path = "Downloading/DownloadingViewController+MZDownloadManagerDelegate.swift"; sourceTree = "<group>"; };
+		6595D9E21E9544800095054B /* DownloadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadingCell.swift; path = Downloading/DownloadingCell.swift; sourceTree = "<group>"; };
+		659F1DB71E9289D000ADD2F2 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LibraryViewController.swift; path = Library/LibraryViewController.swift; sourceTree = "<group>"; };
+		659F1DBC1E928C3600ADD2F2 /* DownloadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadingViewController.swift; path = Downloading/DownloadingViewController.swift; sourceTree = "<group>"; };
+		659F1DBE1E928C9B00ADD2F2 /* UploadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UploadingViewController.swift; path = Uploading/UploadingViewController.swift; sourceTree = "<group>"; };
+		659F1DC01E928CBC00ADD2F2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Settings/SettingsViewController.swift; sourceTree = "<group>"; };
+		659F1DC51E9294A300ADD2F2 /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrowserViewController.swift; path = Browser/BrowserViewController.swift; sourceTree = "<group>"; };
+		65D403961EF8047C00D28789 /* URLInterceptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLInterceptor.swift; path = Browser/URLInterceptor.swift; sourceTree = "<group>"; };
+		65D7FF571ECF2EB6005E60FB /* Brauvi2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Brauvi2.entitlements; sourceTree = "<group>"; };
+		65E582A91EA40739005D93F0 /* SQLiteDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDataStore.swift; path = Database/SQLiteDataStore.swift; sourceTree = "<group>"; };
+		65E582AB1EA4088F005D93F0 /* HistoryDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryDataHelper.swift; path = Database/HistoryDataHelper.swift; sourceTree = "<group>"; };
+		65E582AD1EA408C0005D93F0 /* DataHelperProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataHelperProtocol.swift; path = Database/DataHelperProtocol.swift; sourceTree = "<group>"; };
+		65EE38B31EB0A37100EBA283 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = Browser/HistoryViewController.swift; sourceTree = "<group>"; };
+		65F2D9071EF6984A002523B9 /* BrowserViewController+VideoDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BrowserViewController+VideoDownload.swift"; path = "Browser/BrowserViewController+VideoDownload.swift"; sourceTree = "<group>"; };
+		65F939281E9F5DD9006B9E06 /* BookmarkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookmarkDetailViewController.swift; path = Browser/BookmarkDetailViewController.swift; sourceTree = "<group>"; };
+		65FF6EB61E9BDB9B00AFAC6B /* UIImage-Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage-Ex.swift"; path = "Common/UIImage-Ex.swift"; sourceTree = "<group>"; };
+		B588CECF7781C8F017883BBC /* Pods-Brauvi2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brauvi2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brauvi2/Pods-Brauvi2.release.xcconfig"; sourceTree = "<group>"; };
+		CDF62D3D80EA6ED2720783B3 /* Pods_Brauvi2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brauvi2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		657220AC1E9276CF008A310B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83D13DB3C39366BC9F4DDAA /* Pods_Brauvi2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650322E41E9E36840052B645 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				65E582A91EA40739005D93F0 /* SQLiteDataStore.swift */,
+				65E582AD1EA408C0005D93F0 /* DataHelperProtocol.swift */,
+				6528A7971EA790C4006E7CE2 /* AppConfigDataHelper.swift */,
+				65E582AB1EA4088F005D93F0 /* HistoryDataHelper.swift */,
+				655521E61EA613AA00E90570 /* BookmarkDataHelper.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		657220A61E9276CF008A310B = {
+			isa = PBXGroup;
+			children = (
+				6519A9441EF93F5000A0BA31 /* Brauvi2-Bridging-Header.h */,
+				65D7FF571ECF2EB6005E60FB /* Brauvi2.entitlements */,
+				657220B11E9276CF008A310B /* Brauvi */,
+				657220B01E9276CF008A310B /* Products */,
+				E601F2A524A1BF56EAC90F97 /* Pods */,
+				C66A04241C38808018D75293 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		657220B01E9276CF008A310B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				657220AF1E9276CF008A310B /* Brauvi2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		657220B11E9276CF008A310B /* Brauvi */ = {
+			isa = PBXGroup;
+			children = (
+				6595D9DB1E953E2E0095054B /* Common */,
+				650322E41E9E36840052B645 /* Database */,
+				659F1DC41E92948C00ADD2F2 /* Browser */,
+				659F1DB61E9289A000ADD2F2 /* Library */,
+				659F1DB91E928BA300ADD2F2 /* Downloading */,
+				659F1DBA1E928BBB00ADD2F2 /* Uploading */,
+				659F1DBB1E928BC600ADD2F2 /* Settings */,
+				657220B21E9276CF008A310B /* AppDelegate.swift */,
+				657220B41E9276CF008A310B /* ViewController.swift */,
+				657220B61E9276CF008A310B /* Main.storyboard */,
+				657220BC1E9276CF008A310B /* Assets.xcassets */,
+				657220BE1E9276CF008A310B /* LaunchScreen.storyboard */,
+				657220C11E9276CF008A310B /* Info.plist */,
+				6528A7B11EA7A36D006E7CE2 /* Localizable.strings */,
+			);
+			path = Brauvi;
+			sourceTree = "<group>";
+		};
+		6595D9DB1E953E2E0095054B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6595D9DC1E953E3D0095054B /* VideoModelManager.swift */,
+				6595D9DE1E953F2C0095054B /* VideoModel.swift */,
+				652593671E958CF1002ED0FD /* FileOutputItem.swift */,
+				65353BDC1E96339D0023E5A1 /* MZUtility-Ex.swift */,
+				65FF6EB61E9BDB9B00AFAC6B /* UIImage-Ex.swift */,
+				650E81E71EA50BE8006A4029 /* Date-Ex.swift */,
+				657698701EA8B0D400641333 /* AVAsset-Ex.swift */,
+				658F0F601EC9CD1300F2F42F /* String-Ex.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		659F1DB61E9289A000ADD2F2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				652593691E959463002ED0FD /* LibraryCell.swift */,
+				659F1DB71E9289D000ADD2F2 /* LibraryViewController.swift */,
+				6503A1C81ECDC60900B1C50B /* LibraryViewController+SubMenu.swift */,
+				6503A1CA1ECDC65000B1C50B /* ExtractionAudioViewController.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		659F1DB91E928BA300ADD2F2 /* Downloading */ = {
+			isa = PBXGroup;
+			children = (
+				659F1DBC1E928C3600ADD2F2 /* DownloadingViewController.swift */,
+				6595D9E01E9542280095054B /* DownloadingViewController+MZDownloadManagerDelegate.swift */,
+				6595D9E21E9544800095054B /* DownloadingCell.swift */,
+			);
+			name = Downloading;
+			sourceTree = "<group>";
+		};
+		659F1DBA1E928BBB00ADD2F2 /* Uploading */ = {
+			isa = PBXGroup;
+			children = (
+				656056AF1EC9D89400EC42A5 /* DataTablesOutput.swift */,
+				6595D9D61E9537B60095054B /* Website */,
+				659F1DBE1E928C9B00ADD2F2 /* UploadingViewController.swift */,
+				6595D9D81E95380C0095054B /* WebUploader.swift */,
+			);
+			name = Uploading;
+			sourceTree = "<group>";
+		};
+		659F1DBB1E928BC600ADD2F2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				659F1DC01E928CBC00ADD2F2 /* SettingsViewController.swift */,
+				658D6DBC1EF9147100CA85D9 /* ContactViewController.swift */,
+				658D6DBD1EF9147100CA85D9 /* ThirdPartySoftware.html */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		659F1DC41E92948C00ADD2F2 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				659F1DC51E9294A300ADD2F2 /* BrowserViewController.swift */,
+				65F2D9071EF6984A002523B9 /* BrowserViewController+VideoDownload.swift */,
+				656E11A31E9BB661006355F0 /* Tab.swift */,
+				651972461E9E310A0057BA56 /* BookmarkViewController.swift */,
+				6572E0221E9E72610061A3D8 /* BookmarkCell.swift */,
+				65F939281E9F5DD9006B9E06 /* BookmarkDetailViewController.swift */,
+				65EE38B31EB0A37100EBA283 /* HistoryViewController.swift */,
+				659458FD1EB0EC2200589BF0 /* HistoryCell.swift */,
+				656F167D1EB130CB00203B71 /* HistoryExpandableTableViewSectionHeader.swift */,
+				65D403961EF8047C00D28789 /* URLInterceptor.swift */,
+			);
+			name = Browser;
+			sourceTree = "<group>";
+		};
+		C66A04241C38808018D75293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6506B9EE1EF1D1E600DECE14 /* Photos.framework */,
+				6529D4EA1EA3A87A00EFCCAF /* libsqlite3.0.tbd */,
+				CDF62D3D80EA6ED2720783B3 /* Pods_Brauvi2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E601F2A524A1BF56EAC90F97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61370F9B9F51D5DC55160B65 /* Pods-Brauvi2.debug.xcconfig */,
+				B588CECF7781C8F017883BBC /* Pods-Brauvi2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		657220AE1E9276CF008A310B /* Brauvi2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 657220C41E9276CF008A310B /* Build configuration list for PBXNativeTarget "Brauvi2" */;
+			buildPhases = (
+				7FB564B4FD0D8177AFEF7E0A /* [CP] Check Pods Manifest.lock */,
+				657220AB1E9276CF008A310B /* Sources */,
+				657220AC1E9276CF008A310B /* Frameworks */,
+				657220AD1E9276CF008A310B /* Resources */,
+				E494C4758C3BEAD537CDCB62 /* [CP] Embed Pods Frameworks */,
+				C368AC9BCE0A74A8D491BAB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brauvi2;
+			productName = Brauvi;
+			productReference = 657220AF1E9276CF008A310B /* Brauvi2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657220A71E9276CF008A310B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MIBESoft;
+				TargetAttributes = {
+					657220AE1E9276CF008A310B = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 657220AA1E9276CF008A310B /* Build configuration list for PBXProject "Brauvi2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				it,
+			);
+			mainGroup = 657220A61E9276CF008A310B;
+			productRefGroup = 657220B01E9276CF008A310B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				657220AE1E9276CF008A310B /* Brauvi2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		657220AD1E9276CF008A310B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6528A7AF1EA7A36D006E7CE2 /* Localizable.strings in Resources */,
+				657220C01E9276CF008A310B /* LaunchScreen.storyboard in Resources */,
+				657220BD1E9276CF008A310B /* Assets.xcassets in Resources */,
+				6595D9D71E9537B60095054B /* Website in Resources */,
+				658D6DBF1EF9147100CA85D9 /* ThirdPartySoftware.html in Resources */,
+				657220B81E9276CF008A310B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FB564B4FD0D8177AFEF7E0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C368AC9BCE0A74A8D491BAB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brauvi2/Pods-Brauvi2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E494C4758C3BEAD537CDCB62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brauvi2/Pods-Brauvi2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		657220AB1E9276CF008A310B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EE38B41EB0A37100EBA283 /* HistoryViewController.swift in Sources */,
+				6503A1C91ECDC60900B1C50B /* LibraryViewController+SubMenu.swift in Sources */,
+				65353BDD1E96339D0023E5A1 /* MZUtility-Ex.swift in Sources */,
+				656F167E1EB130CB00203B71 /* HistoryExpandableTableViewSectionHeader.swift in Sources */,
+				659F1DBF1E928C9B00ADD2F2 /* UploadingViewController.swift in Sources */,
+				650E81E81EA50BE8006A4029 /* Date-Ex.swift in Sources */,
+				6595D9DD1E953E3D0095054B /* VideoModelManager.swift in Sources */,
+				659F1DC61E9294A300ADD2F2 /* BrowserViewController.swift in Sources */,
+				657220B51E9276CF008A310B /* ViewController.swift in Sources */,
+				6595D9E31E9544800095054B /* DownloadingCell.swift in Sources */,
+				659F1DC11E928CBC00ADD2F2 /* SettingsViewController.swift in Sources */,
+				65E582AE1EA408C0005D93F0 /* DataHelperProtocol.swift in Sources */,
+				65F2D9081EF6984A002523B9 /* BrowserViewController+VideoDownload.swift in Sources */,
+				658F0F611EC9CD1300F2F42F /* String-Ex.swift in Sources */,
+				65FF6EB71E9BDB9B00AFAC6B /* UIImage-Ex.swift in Sources */,
+				656E11A41E9BB661006355F0 /* Tab.swift in Sources */,
+				659F1DB81E9289D000ADD2F2 /* LibraryViewController.swift in Sources */,
+				651972471E9E310A0057BA56 /* BookmarkViewController.swift in Sources */,
+				65F939291E9F5DD9006B9E06 /* BookmarkDetailViewController.swift in Sources */,
+				6595D9D91E95380C0095054B /* WebUploader.swift in Sources */,
+				6525936A1E959463002ED0FD /* LibraryCell.swift in Sources */,
+				65D403971EF8047C00D28789 /* URLInterceptor.swift in Sources */,
+				655521E71EA613AA00E90570 /* BookmarkDataHelper.swift in Sources */,
+				65E582AC1EA4088F005D93F0 /* HistoryDataHelper.swift in Sources */,
+				659F1DBD1E928C3600ADD2F2 /* DownloadingViewController.swift in Sources */,
+				6595D9DF1E953F2C0095054B /* VideoModel.swift in Sources */,
+				656056B01EC9D89400EC42A5 /* DataTablesOutput.swift in Sources */,
+				65E582AA1EA40739005D93F0 /* SQLiteDataStore.swift in Sources */,
+				6528A7981EA790C4006E7CE2 /* AppConfigDataHelper.swift in Sources */,
+				659458FE1EB0EC2200589BF0 /* HistoryCell.swift in Sources */,
+				6572E0231E9E72610061A3D8 /* BookmarkCell.swift in Sources */,
+				658D6DBE1EF9147100CA85D9 /* ContactViewController.swift in Sources */,
+				6503A1CB1ECDC65000B1C50B /* ExtractionAudioViewController.swift in Sources */,
+				657698711EA8B0D400641333 /* AVAsset-Ex.swift in Sources */,
+				6595D9E11E9542280095054B /* DownloadingViewController+MZDownloadManagerDelegate.swift in Sources */,
+				657220B31E9276CF008A310B /* AppDelegate.swift in Sources */,
+				652593681E958CF1002ED0FD /* FileOutputItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6528A7B11EA7A36D006E7CE2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6528A7B31EA7A3BC006E7CE2 /* en */,
+				6528A7B81EA7A53E006E7CE2 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		657220B61E9276CF008A310B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657220B71E9276CF008A310B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		657220BE1E9276CF008A310B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				657220BF1E9276CF008A310B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		657220C21E9276CF008A310B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		657220C31E9276CF008A310B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		657220C51E9276CF008A310B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61370F9B9F51D5DC55160B65 /* Pods-Brauvi2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Brauvi2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E9V528K48G;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/mailcore2-ios\"",
+				);
+				INFOPLIST_FILE = Brauvi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}/mailcore2-ios/lib\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mibesoft2.Brauvi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Brauvi2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		657220C61E9276CF008A310B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B588CECF7781C8F017883BBC /* Pods-Brauvi2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Brauvi2.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E9V528K48G;
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/mailcore2-ios\"",
+				);
+				INFOPLIST_FILE = Brauvi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}/mailcore2-ios/lib\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mibesoft2.Brauvi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Brauvi2-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		657220AA1E9276CF008A310B /* Build configuration list for PBXProject "Brauvi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657220C21E9276CF008A310B /* Debug */,
+				657220C31E9276CF008A310B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		657220C41E9276CF008A310B /* Build configuration list for PBXNativeTarget "Brauvi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				657220C51E9276CF008A310B /* Debug */,
+				657220C61E9276CF008A310B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657220A71E9276CF008A310B /* Project object */;
+}

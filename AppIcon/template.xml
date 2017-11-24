@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+    <folderPath>/Users/andrea/Desktop/Brauvi/AppIcon</folderPath>
+    <filename>AppIcon</filename>
+    <extension>png</extension>
+    <window>
+        <width>1024</width>
+        <height>1024</height>
+        <borderRadius>0</borderRadius>
+        <gradient1>FFFFFF</gradient1>
+        <gradient2>FFFFFF</gradient2>
+    </window>
+    
+    <command>
+        <name>drawGradientCircle</name>
+        <param>50</param>
+        <param>FFFFFF</param>
+        <param>0000FF</param>
+    </command>
+    
+    <command>
+        <name>drawOval</name>        
+        <param>272</param>
+        <param>120</param>
+        <param>480</param>
+        <param>210</param>        
+        <param>100</param>
+        <param>FFFFFF</param>
+    </command>
+    
+    <command>
+        <name>addImage</name>
+        <param>W3C_logo.png</param>
+        <param>330</param>
+        <param>100</param>
+        <param>30</param>
+    </command>
+    
+    <command>
+        <name>drawOval</name>      
+        <param>141</param>
+        <param>362</param>
+        <param>300</param>
+        <param>300</param>
+        <param>100</param>
+        <param>FFFFFF</param>
+    </command>
+ 
+    <command>
+        <name>addImage</name>
+        <param>video.png</param>
+        <param>141</param>
+        <param>362</param>
+        <param>300</param>
+        <param>300</param>
+    </command>
+    
+    <command>
+        <name>drawOval</name>     
+        <param>583</param>
+        <param>363</param>
+        <param>300</param>
+        <param>300</param>
+        <param>100</param>
+        <param>FFFFFF</param>
+    </command>
+    
+    <command>
+        <name>addImage</name>
+        <param>download.png</param>
+        <param>582</param>
+        <param>362</param>
+        <param>300</param>
+        <param>300</param>
+    </command>
+    
+    <command>
+        <name>drawText</name>
+        <param>Apple Color Emoji</param>
+        <param>FFFFFF</param>
+        <param>80</param>
+        <param>MIBESoft</param>
+        <param>320</param>
+        <param>920</param>
+   </command>
+   
+</template>
